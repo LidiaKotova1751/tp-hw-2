@@ -113,7 +113,7 @@ def test_shoppinglist_add_recipe():
     with pytest.raises(ValueError):
         sl.add_recipe(recipe, 0)
     with pytest.raises(ValueError):
-        sl.add_recipe(recipe, 0)
+        sl.add_recipe(recipe, -1)
 
 def test_shoppinglist_remove_recipe():
     '''Проверка метода remove_recipe'''
