@@ -18,13 +18,17 @@
 git clone https://github.com/LidiaKotova1751/tp-hw-2
 cd tp-hw-2
 ```
+
 2. Установите необходимые зависимости:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-при необходимости используйте эту команду:
+<details>
+<summary><b>Альтернативные команды запуска</b></summary>
+
+Если система выдает ошибку при использовании прошлой команды, можно использовать эти команды для запуска через модуль Python:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -35,6 +39,8 @@ python -m pip install -r requirements.txt
 ```bash
 py -m pip install -r requirements.txt
 ```
+
+</details>
 
 ## Использование
 
@@ -76,7 +82,13 @@ pytest
 pytest -v
 ```
 
-при необходимости используйте эти команды:
+<details>
+<summary><b>Альтернативные команды запуска</b></summary>
+
+Если система выдает ошибку при использовании прошлых команд, можно использовать эти команды для запуска через модуль Python:
+
+<details>
+<summary><b>Стандартный запуск</b></summary>
 
 ```bash
 python -m pytest
@@ -88,7 +100,10 @@ python -m pytest
 py -m pytest
 ```
 
-и 
+</details>
+
+<details>
+<summary><b>Запуск с подробным выводом</b></summary>
 
 ```bash
 python -m pytest -v
@@ -99,6 +114,9 @@ python -m pytest -v
 ```bash
 py -m pytest -v
 ```
+</details>
+
+</details>
 
 ## Автор
 
